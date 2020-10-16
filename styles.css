@@ -15,8 +15,9 @@ body {
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
+
 a:hover {
   color: #6633ff;
 }
@@ -62,6 +63,7 @@ header {
   overflow: hidden;
   padding-top: 60px;
 }
+
 header {
   line-height: 1.5;
 }
@@ -204,4 +206,5 @@ a.social:hover {
   }
 
 }
+
 
