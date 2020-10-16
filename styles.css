@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: #222;
-  background: #ffffff;
+  background: rgb(237, 239, 240);
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(175, 182, 186);;
 }
 
 a:hover {
@@ -26,7 +26,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background:#b9baba;
+  background:rgb(64, 71, 78);
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -44,7 +44,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: black;
+    color:rgb(175, 182, 186);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -72,11 +72,11 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px double white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(-20deg);
 }
 .tag {
   background-color: #efefef;
@@ -95,7 +95,7 @@ header .profile-image:hover {
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
-  background:#e2edf5;
+  background:whitesmoke;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
@@ -121,6 +121,11 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+.skills li:hover{
+  background: rgb(84, 139, 187);
+}
+
+
 
 footer {
   width: 100%;
